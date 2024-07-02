@@ -1,0 +1,25 @@
+{
+  "name": "yash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "yash",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.13.15",
+    "razorpay": "^2.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,155 @@
+/*Nav Bar*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: ubuntu;
+}
+
+#navheader{
+    background-color:rgb(24, 23, 23) ;
+}
+
+nav{
+    overflow: auto;
+    margin: auto;
+    max-width: 1150px;
+}
+
+#navd1{
+    float: left;
+}
+
+#navh1{
+    color: white;
+    padding: 15px;
+}
+
+#navd2{
+    float: right;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+ul li a:hover{
+    background-color: rgb(49, 48, 48);
+    color: rgb(250, 145, 60);
+}
+
+/*Contact Details*/
+
+#contactd1{
+    margin-left: 250px;
+}
+
+#contacth1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contactp1{
+    padding-bottom: 5px;
+}
+
+#contacts1{
+    color:rgb(250, 145, 60) ;
+}
+
+#contactd2{
+    margin-left: 250px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    width: 22cm;
+    height: 0.7cm;
+}
+
+.span1{
+    margin-top: 20px;
+}
+
+#btn{
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 2.5cm;
+    height: 0.7cm;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: translateY(2px);
+}
+
+/*features*/
+
+#featured{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:  33.3% 33.3% 33.3%;
+    background-color:rgb(24, 23, 23) ;
+}
+
+i{
+    color: white;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+#featureh1,#featureh2,#featureh3{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: larger;
+}
+
+#featurep1,#featurep2,#featurep3{
+    color: white;
+    text-align: center;
+}
+
+#featured1,#featured2,#featured3{
+    padding: 30px 0;
+}
+
+#featurep3{
+    padding-left: 150px;
+}
+
+
+/*Footer*/
+
+footer{
+    display: grid;
+    grid-template-rows: 65px;
+    background-color: rgb(34, 34, 34) ;
+}
+
+#footerp1{
+    color: white;
+    text-align: center;
+    padding-top: 23px;
+}

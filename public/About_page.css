@@ -1,0 +1,171 @@
+/*Nav bar*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navheader{
+    background-color:rgb(24, 23, 23);
+}
+
+body{
+    font-family: ubuntu;
+}
+
+nav{
+    overflow: auto;
+    margin: auto;
+    max-width: 1150px;
+}
+
+#navd1{
+    float: left;
+}
+
+#navh1{
+    color: white;
+    padding: 15px;
+}
+
+#navd2{
+    float: right;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    float: left;
+}
+
+#nava1{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#nava1:hover{
+    background-color: rgb(49, 48, 48);
+    color: rgb(250, 145, 60);
+}
+
+
+/*Intro*/
+
+#introheader{
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#img1{
+    height: 300px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+#intros1{
+    color: rgb(250, 145, 60);
+}
+
+#introd{
+    margin-left: 20px;
+}
+
+#introd1{
+    margin-top: 20px;
+}
+
+#introd2{
+    margin-top: 25px;
+}
+
+#introd3{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#introp2{
+    margin-top: 20px;
+}
+
+/*Main content*/
+
+#mainheader{
+    margin-top: 10px;
+    background-image: url(image/pexels-pixabay-258154.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#dspecial{
+    padding-top: 60px;
+}
+
+#img2,#img3{
+    height: 100px;
+    width: 100px;
+    border-radius: 80%
+}
+
+#mainh1{
+    text-align: center;
+    color: white;
+}
+
+#mains1{
+    margin: 40px auto;
+    width: 850px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    background-color:rgb(250, 145, 60, 0.603) ;
+}
+
+#mains2{
+    margin: auto;
+    width: 850px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    background-color:rgba(250, 145, 60, 0.603) ;
+}
+
+#maind3{
+    box-sizing: border-box;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#img2{
+    margin: 10px 15px;
+}
+
+#maind5{
+    box-sizing: border-box;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#img3{
+    margin: 10px 15px;
+}
+
+/*Footer*/
+
+footer{
+    display: grid;
+    grid-template-rows: 65px;
+    background-color: rgb(24, 23, 23) ;
+}
+
+#footerp1{
+    color: white;
+    text-align: center;
+    padding-top: 23px;
+}
